@@ -64,17 +64,25 @@ def main():
     """
     Call function_1() and function_2()
     """
-    # ...
+    # Setting up the screen
     wn = turtle.Screen()
+    # Setting up the first turtle, thy
     thy = turtle.Turtle()
+    # Setting up thy's pen size
     thy.pensize(20)
+    # Setting up thy's pen color
     thy.color("blue")
+    # Setting up the second turtle, jhonny
     jhonny = turtle.Turtle()
+    # Setting up jhonny's pen size
     jhonny.pensize(20)
+    # Setting up jhonny's pen color
     jhonny.color("yellow")
+    # Let thy pen up to set position
     thy.penup()
     thy.setposition(-250, -250)
     jhonny.penup()
+    # From thy, set jhonny (-20, -20) of the pensize
     jhonny.setposition(-230, -230)
 
     draw_square(thy)            # Function call to function_1
